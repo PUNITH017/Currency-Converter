@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #76885B;
+}
+h2{
+    font-size: 25px;
+    color: #3652AD;
+    
+}
+.container{
+    background-color: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    min-height: 60vh;
+    width: 45vh;
+}
+form{
+    margin: 2.3rem 0 1rem 0;
+}
+form select,button,input{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 0.75rem;
+
+}
+form input{
+    margin-top: 10px;
+    border: 1px solid lightgray;
+    font-size: 1.2rem;
+    height: 2.5rem;
+    padding-left: 0.5rem;
+}
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+.dropdown i {
+    font-size: 1.3rem;
+    margin-top: 1rem;
+}
+.select-container img{
+    max-width: 2rem;
+}
+.select-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+}
+.select-container select{
+    font-size: 0.8rem;
+    width: auto;
+}
+.msg{
+    margin: 2rem 0 2rem 0;
+}
+form button{
+    font-size: 1.15rem;
+    height: 2.5rem;
+    color: #fff;
+    background-color: #31363F;
+    cursor: pointer;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.amount p {
+    font-size: 20px;
+}
